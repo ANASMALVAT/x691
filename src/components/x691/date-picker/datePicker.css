@@ -1,0 +1,19 @@
+input{
+    color: white;
+}
+text{
+    color: white;
+}
+.MuiInputBase-root{
+    border: 1px solid white;
+}
+.MuiInputBase-input{
+    color: white;
+}
+
+.MuiSvgIcon-root{
+    color: black;
+}
+.MuiPickersCalendarHeader{
+    color: white;
+}
