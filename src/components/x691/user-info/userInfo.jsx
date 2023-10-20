@@ -14,12 +14,12 @@ const UserInfo = ({userInfo,fullName,sDate,eDate}) => {
 
 
     const fetchDetail = () => {
-        var hyphenatedName = fullName.replace(/ /g, "-");
+        var hyphenatedName = fullName.replace(/ /g, "+");
         navigate(`/project/${hyphenatedName}`)
     }
 
     useEffect(() => {
-        
+
         const project = JSON.parse(sessionStorage.getItem('project'));
         let commits = project[fullName].user_commits;
         let cnt = 0; 
